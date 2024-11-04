@@ -1,0 +1,35 @@
+/* Style for the body element */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+
+/* Style for h3 headers */
+h3 {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 50px;
+    margin-top: 100px; /* Duplicate margin-top, consider removing one */
+}
+
+/* Style for elements with the class 'link' */
+.link {
+    text-align: center; /* Corrected 'Text-align' to 'text-align' */
+    margin-top: 200px;
+    font-size: 25px;
+}
+
+/* Style for elements with the class 'login' */
+.skriv {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+/* Style for input elements */
+input {
+    width: 250px;
+    height: 30px;
+}
+
+

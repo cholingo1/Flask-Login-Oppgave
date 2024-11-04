@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Table to display user information -->
+    <table border="1">
+        <thead>
+            <tr>
+                <!-- Table headers -->
+                <td>Username</td>
+                <td>Password</td>
+            </tr>
+        </thead>
+
+        <!-- Loop through rows and display each row's data -->
+        {% for row in rows %}
+        <tr>
+            <!-- Display username -->
+            <td>{{row['name']}}</td>
+            <!-- Display password -->
+            <td>{{row['passw']}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    
+    <!-- Link to go back to the homepage -->
+    <a href="/">Go to homepage</a>
+</body>
+</html>
